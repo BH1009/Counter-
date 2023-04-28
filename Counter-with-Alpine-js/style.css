@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.app{
+  background-color: #58D68D;
+  width: 250px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10%;
+  border: solid whitesmoke;
+  box-shadow:  5px 5px;
+}
+
+.app > h1{
+  font-size: 5em;
+  text-align: center;
+  color: black;
+}
+
+.app > button{
+  width: 80px;
+  height: 40px;
+  font-size: .8em;
+  font-style: italic;
+  background: #F7DC6F;
+  border-radius: 10%;
+  border: solid whitesmoke;
+}
+
+button:hover{
+  background: #F39C12;
+}
